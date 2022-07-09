@@ -1,8 +1,7 @@
 #!/bin/bash
 echo INSTALANDO VIRTUALBOX GUEST ADDITIONS
 echo Continuamos con la inslación.Inserte las Guest Additions
-sudo apt install module-assistant -y
-sudo apt install xserver-xorg xserver-xorg-core -y
+sudo apt install module-assistant xserver-xorg xserver-xorg-core -y
 echo comprobación que está todo listo.
 sudo m-a prepare
 echo --------------------------------------------------------
